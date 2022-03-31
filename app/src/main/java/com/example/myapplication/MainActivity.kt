@@ -141,7 +141,7 @@ private fun Button1(modifier: Modifier = Modifier){
 }
 
 
-@Preview
+
 @Composable
 private fun Content(){
     Box(modifier = Modifier
@@ -191,10 +191,10 @@ fun Portfolio(data: List<String>) {
 
 }
 
-//@Preview(showBackground = true)
-//@Composable
-//fun DefaultPreview() {
-//    MyApplicationTheme {
-//        CreateBizCard()
-//    }
-//}
+@Preview(showBackground = true)
+@Composable
+fun DefaultPreview() {
+    MyApplicationTheme {
+        CreateBizCard()
+    }
+}
